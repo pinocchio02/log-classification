@@ -37,22 +37,25 @@ The system uses three layered classification strategies:
 ```text
 .
 ├── training/
-│   ├── regex_classifier.py
-│   ├── train_embedding_model.py
-│   └── train_logistic_regression.py
+│   ├──dataset/
+│       ├──synthetic_logs.csv
+│   ├── log_classification.ipynb
 │
-├── models/
-│   ├── sentence_transformer/
-│   └── logistic_regression.joblib
-│
+│ 
 ├── resources/
-│   ├── sample_logs.csv
-│   ├── outputs/
+│   ├── test.csv
+│   ├── output.csv
 │   └── arch.png
 │
+├── classify.py
+├── processore_bert.py
+├── processore_llm.py
+├── processore_regex.py
+├── main.py
 ├── server.py
 ├── requirements.txt
 └── README.md
+└── .gitignore
 ```
 
 ---
