@@ -34,6 +34,7 @@ The system uses three layered classification strategies:
 
 ## Folder Structure
 
+```text
 .
 ├── training/
 │   ├── regex_classifier.py
@@ -52,6 +53,7 @@ The system uses three layered classification strategies:
 ├── server.py
 ├── requirements.txt
 └── README.md
+```
 
 ---
 
